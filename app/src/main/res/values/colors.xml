@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="long_app_name_color">#c4232b</color>
+    <color name="label_color">#8d2e2e</color>
+    <color name="activity_level_label_color">#f66f40</color>
+    <color name="label_text_color">#ffffff</color>
+    <color name="correct_color">#8fdc35</color>
+    <color name="wrong_color">#ff4606</color>
+    <color name="question_lbl">#3a1007</color>
+    <color name="question_guess_color">#e34799</color>
+    <color name="score_label_color">#830000</color>
+    <color name="button_start_color">#243065</color>
+    <color name="user_answer_color">#710b37</color>
+    <color name="timer_color">	#ff4d00</color>
+</resources>

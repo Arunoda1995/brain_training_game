@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menu_button_margin"> 4dp</dimen>
+    <dimen name="menu_button_padding"> 10dp </dimen>
+    <dimen name="menu_space"> 10dp </dimen>
+    <dimen name="menu_text_size"> 32sp </dimen>
+    <dimen name="menu_padiing"> 10dp </dimen>
+    <dimen name="elevation_high"> 8dp </dimen>
+    <dimen name="activity_level_button_width">350dp</dimen>
+    <dimen name="activity_level_button_height">50dp</dimen>
+    <dimen name="activity_level_font_size">25dp</dimen>
+    <dimen name="activity_easy_vertical_margin">16dp</dimen>
+    <dimen name="activity_easy_horizontal_margin">16dp</dimen>
+</resources>

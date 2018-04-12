@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/menu_layout"
+    android:elevation="@dimen/elevation_high"
+    android:padding="@dimen/menu_padiing"
+    android:background="@drawable/menu_background"
+    tools:context="com.example.brain_training_game.main_menu_fragment">
+
+    <TextView
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:layout_marginBottom ="@dimen/menu_space"
+        android:text ="@string/long_app_name"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAppearance ="?android:textAppearanceLarge"
+        android:textColor="@color/long_app_name_color"
+        android:textSize ="@dimen/menu_text_size"/>
+
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/menu_button_margin"
+        android:background="@color/label_color"
+        android:padding="@dimen/menu_button_padding"
+        android:text="@string/label_continue"
+        android:textColor="@color/label_text_color"
+
+        />
+    <Button
+        android:id ="@+id/button_new"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:layout_gravity ="center"
+        android:layout_margin ="@dimen/menu_button_margin"
+        android:padding ="@dimen/menu_button_padding"
+        android:text ="@string/label_newgame"
+        android:background="@color/label_color"
+        android:textColor="@color/label_text_color"
+
+
+        />
+    <Button
+        android:id ="@+id/button_about"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:layout_gravity ="center"
+        android:layout_margin ="@dimen/menu_button_margin"
+        android:padding ="@dimen/menu_button_padding"
+        android:text ="@string/label_about"
+        android:background="@color/label_color"
+        android:textColor="@color/label_text_color"/>
+
+    <Button
+        android:id="@+id/button_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/menu_button_margin"
+        android:background="@color/label_color"
+        android:padding="@dimen/menu_button_padding"
+        android:text="@string/label_preferences"
+        android:textColor="@color/label_text_color"/>
+
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/menu_button_margin"
+        android:background="@color/label_color"
+        android:padding="@dimen/menu_button_padding"
+        android:text="@string/label_exit"
+        android:textColor="@color/label_text_color"/>
+
+
+</LinearLayout>
